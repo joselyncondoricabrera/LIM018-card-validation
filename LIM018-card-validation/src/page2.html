@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="body2">
+    <header></header>
+    <main>
+        <div class="cont1">
+            <h2 class="titulo_tabla">DETALLE DE COMPRA</h2>
+       
+        <table class="table_bol">
+            <tr style="height: 40px;" >
+                <td style="width:400px" id="descrip_entrada" >Fiesta Patronal con los Patronales - Cieneguilla</td>
+                <td id= "value_price"></td>
+
+            </tr>
+            <tr style="height: 40px;" >
+                <td>Comision de venta</td>
+                <td>S/.2</td>
+
+            </tr>
+            <tr style="height: 40px;" >
+                <td>Total a Pagar</td>
+                <td id="total">S/.</td>
+
+            </tr>
+
+        </table>
+        </div>
+        
+        <p class="subtitulo">METODO DE PAGO:</p>
+        
+        <div class="cont2">
+            <table class="table_cont2">
+                <tr style="height:20px">
+                    <td>Tarjeta de credito o debito</td>
+                   
+                </tr>
+                <tr style="height:30px">
+                    <td><input type="radio" name="option" class="radiobutton" id="option1"> <img src="image/visa.png" class="icono_tarjeta">
+                                                        <img  src="image/mastercard.png" class="icono_mastercard">
+                                                        <img src="image/dc1.png" class="icono_dc">
+                                                        <img src="image/american2.jpg" class="icono_american">
+                    </td>
+                    
+                </tr>
+                <tr style="height:30px">
+                    <td><input type="radio" name="option" class="radiobutton2" id="option2"> <img src="image/yape.png" class="icono_yape">
+                         (proximamente disponible)</td>
+                    
+                </tr>
+
+            </table>
+            
+          
+        
+        </div>
+
+
+        <label class="checkbox">
+            <input type="checkbox" name="condition" class="" id="checkbox">   Acepto los terminos y condiciones
+        </label>
+
+        <!--<a href="page3.html">
+            <button class="btn_reserva">RESERVAR ENTRADA</button>
+        </a> -->
+
+        <button class="btn_reserva" id="reserve">RESERVAR ENTRADA</button>
+        
+    
+    </main>
+    <footer></footer>
+    <script src="page2.js" type="module" ></script>
+    
+</body>
+</html>
