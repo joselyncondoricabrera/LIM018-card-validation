@@ -208,7 +208,7 @@ necesaria para dicho evento y reduce costos operativos.
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
   * Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
   * El sistema esté orientado en las historias de usuario.
-  * 
+  * En la validación de la tarjeta me guie estrictamente de la teoria de Luhn y revise el video.
 
 5. Imagen del prototipo final.
-  * [prototipo de la página](https://www.figma.com/file/4NlnUz91yKVUXQkGYfl90T/card-validation?node-id=0%3A1)
+  * [prototipo de la página](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
