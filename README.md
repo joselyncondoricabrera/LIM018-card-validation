@@ -35,7 +35,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### HTML
 
-- [✓] **Uso de HTML semántico**
+- [] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -45,7 +45,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [✓] **Uso de selectores de CSS**
+- [] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -190,27 +190,29 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-- [✓] **Seguir los principios básicos de diseño visual**
+- [] **Seguir los principios básicos de diseño visual**
 
 ## 4. Investigaciones UX
 
 1. Quiénes son los usuarios y los objetivos en relación con el producto:
-  * Los usuarios son cualquier persona que desee participar en dicho evento que están publicando, 
-    la plataforma web va a permitir automatizar el proceso compra a través de tarjeta de crédito. 
+   - Los usuarios son cualquier persona que desee participar en dicho evento que están publicando, 
+     la plataforma web va a permitir automatizar el proceso compra a través de tarjeta de crédito. 
 
 2. Cómo el producto soluciona los problemas/necesidades de dichos usuarios:
-   * La plataforma permite realizar el proceso en menor tiempo y que se puede realizar la compra 
+   - La plataforma permite realizar el proceso en menor tiempo y que se puede realizar la compra 
      desde cualquier lugar y con acceso a internet. Tiene a disponibilidad toda la información 
      necesaria para dicho evento y reduce costos operativos.
 
 3. Foto del primer prototipo en papel:
+   ![imagen del prototipo](https://github.com/joselyncondoricabrera/LIM018-card-validation/tree/main2/src/image/prototipoManual.jpg)
 
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
-   * Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
-   * El sistema esté orientado en las historias de usuario.
-   * En la validación de la tarjeta me guie estrictamente de la teoria de Luhn y revise el video.
+   - Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
+   - El sistema esté orientado en las historias de usuario.
+   - En la validación de la tarjeta me guie estrictamente de la teoria de Luhn y revise el video.
 
 5. Imagen del prototipo final:
-  * [prototipo del proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
+  - [prototipo del proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
 
 6. Link del proyecto:
+   - [Proyecto Card Validation](https://joselyncondoricabrera.github.io/LIM018-card-validation/src/)
