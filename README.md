@@ -45,7 +45,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [] **Uso de selectores de CSS**
+- [ ] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -53,7 +53,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [✓] **Modelo de caja (box model): borde, margen, padding**
+- [ ] **Modelo de caja (box model): borde, margen, padding**
 
   <details><summary>Links</summary><p>
 
@@ -190,7 +190,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-- [] **Seguir los principios básicos de diseño visual**
+- [ ] **Seguir los principios básicos de diseño visual**
 
 ## 4. Investigaciones UX
 
@@ -204,7 +204,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
      necesaria para dicho evento y reduce costos operativos.
 
 3. Foto del primer prototipo en papel:
-   ![imagen del prototipo](https://github.com/joselyncondoricabrera/LIM018-card-validation/tree/main2/src/image/prototipoManual.jpg)
+   - ![ ](https://github.com/joselyncondoricabrera/LIM018-card-validation/tree/main2/src/image/prototipo.jpg)
 
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
    - Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
@@ -212,7 +212,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
    - En la validación de la tarjeta me guie estrictamente de la teoria de Luhn y revise el video.
 
 5. Imagen del prototipo final:
-  - [prototipo del proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
+   - [Prototipo proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
 
 6. Link del proyecto:
    - [Proyecto Card Validation](https://joselyncondoricabrera.github.io/LIM018-card-validation/src/)
