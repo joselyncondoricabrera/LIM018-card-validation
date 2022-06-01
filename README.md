@@ -204,7 +204,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
      necesaria para dicho evento y reduce costos operativos.
 
 3. Foto del primer prototipo en papel:
-   - ![ ](https://github.com/joselyncondoricabrera/LIM018-card-validation/tree/main2/src/image/prototipo.jpg)
+   - ![ ](https://ibb.co/WchCtCB)
 
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
    - Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
