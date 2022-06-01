@@ -12,6 +12,7 @@
     background-size:cover;
     background-repeat: no-repeat; 
     background-size: 100% 100%;
+    display: block;
      
 }
 .title{
@@ -19,23 +20,24 @@
     position: relative;
     left:70px;
     width: 40%;
-    /*background-color: black;*/
     font-size: 18px;
     font-family:monospace;
+    display: block;
 }
 .container_li1{
-   /* background-color: aqua;*/
+   
     width: 400px;
     position: relative;
     left: 80px;
     font-size: 17px;
     font-family: cursive;
     color: #CD6155;
+    display: block;
 
 
 }
 .container_li2{
-   /* background-color:blueviolet;*/
+  
     width: 500px;
     position:relative;
     top: -120px;
@@ -43,10 +45,11 @@
     font-size: 17px;
     font-family: cursive;
     color: #CD6155;
+    display: block;
 }
 
 .type1{
-    /*background-color: chocolate;*/
+    
     position: relative;
     top: -10px;
     left: 70px;
@@ -62,10 +65,11 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    display: block;
 
 }
 .type2{
-   /* background-color: cadetblue;*/
+
     position: relative;
     top: -130px;
     height: 120px ;
@@ -81,9 +85,10 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    display: block;
 }
 .type3{
-    /*background-color: #16A085;*/
+    
     position: relative;
     top: -80px;
     height: 120px ;
@@ -99,9 +104,10 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    display: block;
 }
 .type4{
-   /* background-color: #9B59B6;*/
+  
     position: relative;
     top: -200px;
     height: 120px ;
@@ -117,6 +123,7 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    display: block;
 }
 .btn_adquirir{
     font-size: 15px;
@@ -200,10 +207,20 @@
     border: none;
     font-family: cursive;
 }
-.show{
+/*.show{
     pointer-events: auto;
     opacity: 1;
+}*/
+
+/*mostrando y ocultando vistas --  nuevo codigo*/
+.mostrar{
+    display: block;
 }
+.ocultar{
+    display: none;
+}
+
+/**/
 
 .btn_increm{
     position:relative;
@@ -239,17 +256,27 @@
     top:5px;
     left:75px;
 }
+
 /*pagina2 selectores*/
 
-.body2{
+/*.body2{
     background-color: #F2F3F4;
-}
+}*/
+
+/*.view2{
+    position: relative;
+    top:-1200px;
+  
+    background-color: yellow;
+    height:500px ;
+    width: 600px;
+}*/
 
 .cont1{
 
-   background-color:white;
-   position: relative;
-   top:-90px;
+    background-color:white;
+    position: relative;
+    top:-90px;
     opacity: 0.9;
     width: 500px;
     height: 187px;
@@ -257,9 +284,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-   /* margin-top: auto;*/
-   border-radius: 10px;
-   border-color: #5081B4;
+  
+    border-radius: 10px;
+    border-color: #5081B4;
     border-right-style: solid ;
     border-left-style: solid;
     border-top-style: solid;
@@ -268,7 +295,6 @@
     border-bottom-width: 2px;
     border-right-width: 2px;
     border-left-width: 2px;
-    
 }
 .cont2{
     position: relative;
@@ -291,15 +317,14 @@
 }
 .checkbox{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
     left: 40%;
-    /*top: 10%;*/
+    top: -45px;
+
 }
 .btn_reserva{
     position: relative;
-    top:-30px;
-    left:350px;
+    top:0px;
+    left:330px;
     height: 40px;
     width: 180px;
     background-color: #34495E;
@@ -308,8 +333,7 @@
     border-radius: 5px;
 }
 .table_bol  {
-    /*border: black 5px solid ;*/
-    /*margin:auto;*/
+   
     border:  1;
     width: 100%;
     text-align: left;
@@ -317,7 +341,7 @@
     
 }
 .table_cont2{
-   /* border: black 5px solid ;*/
+  
     width: 100%;
     padding:25px;
 }
@@ -334,10 +358,7 @@
     
 
 }
-.checkbox{
-    position: relative;
-    top: -65px;
-}
+
 .icono_tarjeta{
     width: 42px;
     height: 30px;
@@ -377,3 +398,198 @@
 
 }
 
+/*selectores de la vista3*/
+/*.view3{
+    display: none;
+}*/
+.container{
+    position: relative;
+    background-color: #D7DBDD ;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-color: #3747D4;
+    border-width: 60px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    
+    top:40px;
+    box-shadow:  20px 15px 3px #808B96;
+}
+h1{
+color: #1F1078;
+font-size: medium;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.numTarjeta{
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+  color:#1F1078 ;
+
+}
+.btn_valida{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  color: #1F1078;
+
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  top:30px;
+  left:8px;
+   
+}
+
+.mensaje{
+  
+  position: relative;
+  height: 50px;
+  top:40px;
+  left: auto;
+ font-size: small;
+}
+.container_img{
+
+  background-image: url("image/CompraSegura.png") ;
+  border: yellow;
+  height: 70px;
+  width: 300px;
+  background-size: 100% 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+
+}
+.num_tarj{
+  color:#1F1078;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container2{
+  position: relative;
+  height: 200px ;
+  width: 340px;
+  top: -160px;
+  left: 505px;
+}
+.date{
+  position: relative;
+  left: 30px;
+  width: 150px;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  opacity: 0;
+
+}
+.cvv{
+  position: relative;
+  left: 50px;
+  border-radius: 8px;
+  height: 25px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  opacity: 0;
+
+}
+.name{
+  position: relative;
+  top:7px;
+  left: 30px;
+  height: 25px;
+  width: 280px;
+  border-radius: 8px;
+  border: none;
+  opacity: 0;
+
+}
+.fullname{
+  position: relative;
+  top:12px;
+  left: 30px;
+  border-radius: 8px;
+  height: 25px;
+  width: 280px;
+  border: none;
+  opacity: 0;
+
+}
+.gmail{
+  position: relative;
+  top:15px;
+  left: 30px;
+  border-radius: 8px;
+  height: 25px;
+  width: 280px;
+  border: none;
+  opacity: 0;
+}
+.btn_pagar{
+  position: relative;
+  width: 230px;
+  height: 30px;
+  top:30px;
+  left: 60px;
+  border-radius: 8px;
+  border: none;
+  opacity: 0;
+  color: #1F1078
+}
+ /* SELECTORES PARA MOSTRAR EL POPUP*/
+ .overLay{
+  background-color:rgb(0,0,0,0.3);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events:none;
+  opacity: 0;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+ }
+
+ .popUp{
+  background-color: white;
+  width: 250px;
+  height: 120px;
+  padding: 30px 50px;
+  border-radius: 5px;
+  text-align: center;
+ }
+ .show{
+  pointer-events: auto;
+  opacity: 1;
+}
+.icone{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 5px;
+  top: -20px;
+}
+.h1{
+  position: relative;
+  top:-10px;
+}
+.btnAceptar{
+  position: relative;
+  width:250px;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  top:5px;
+}
+/*probando*/
+.showBoton{
+  opacity: 1;
+}

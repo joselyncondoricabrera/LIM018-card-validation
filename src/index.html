@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,10 +7,10 @@
   </head>
   <body>
     
-    <header class="header1"> 
+    <header class="header1" id="header1"> 
     </header>
     <main>
-      <div class="title">
+      <div class="title" id="title">
         <p><br>
           ACERCA DEL EVENTO <br>
            28/05/2022 - 8:00pm <br>
@@ -19,7 +20,7 @@
       </div>
       
 
-      <div class=" container_li1">
+      <div class=" container_li1" id="container_li1">
         <p>En el evento habrá: <br> </p>
           <li> Banda 'LA PATRONAL' </li>
           <li> Banda (Sorpresa) </li>
@@ -27,7 +28,7 @@
           <li> Sorteos </li>
           <li> DJ toda la noche </li>
       </div >
-      <div class="container_li2">
+      <div class="container_li2" id="container_li2">
         <li>Quema de castillo (5 pisos)</li>
         <li>Toro loco (2 toros)</li>
         <li>Zona Camping</li>
@@ -36,7 +37,7 @@
       </div>
 
      
-        <div class="type1">
+        <div class="type1" id="type1">
           <p class ="sub_title">ZONA PATRONAL <br>
             S/. 50.0 <br><br>
           </p>
@@ -50,7 +51,7 @@
          
         </div>
 
-        <div class="type2">
+        <div class="type2" id="type2">
           <p class ="sub_title">ZONA CAMPING <br>
             S/. 15.0 <br><br>
           </p>
@@ -60,13 +61,9 @@
           <img class="icone2" src="image/regalo.png" >
           
             <button id ="btn_adquirir2" class="btn_adquirir">ADQUIRIR</button>
-          
-
-          
-
         </div>
 
-        <div class="type3">
+        <div class="type3" id="type3">
           <p class ="sub_title">BUS PATRONAL #1 <br>
             S/. 30.0 <br><br>
           </p>
@@ -80,7 +77,7 @@
           
         </div>
 
-        <div class="type4">
+        <div class="type4" id="type4">
           <p class ="sub_title">BUS PATRONAL #2 <br>
             S/. 30.0 <br><br>
 
@@ -93,8 +90,6 @@
           <img class="icone2" src="image/regalo.png">
           
             <button id= "btn_adquirir4" class="btn_adquirir">ADQUIRIR</button>
-          
-
         </div>
 
         <div class="over_lay" id="overlay">
@@ -103,23 +98,128 @@
             <button id="btn_decrem_num" class="btn_decrem"><img src="image/menos.png" class="img_decrem"></button>
             <label id ="number" class="label_num">1</label>
             <button id="btn_increm_num" class="btn_increm"><img src="image/agregar.png" class="img_incre"></button>
-            <a href="page2.html">
+
               <button  id="btn_close" class="close_popup"> ACEPTAR </button>
-            </a>
-            
-             
 
           </div>
-
         </div>
-      
-      
+
 
       
-     
-      
-
     </main>
+
+    <!---->
+        <!--codigo nuevo -- aqui va todo lo que se verá en vista 2-->
+
+    <div class="view2" id="view2" >
+      <div class="cont1" id="cont1">
+        <h2 class="titulo_tabla">DETALLE DE COMPRA</h2>
+   
+        <table class="table_bol">
+            <tr style="height: 40px;" >
+              <td style="width:400px" id="descrip_entrada" >Fiesta Patronal con los Patronales - Cieneguilla</td>
+              <td id= "value_price"></td>
+
+            </tr>
+            <tr style="height: 40px;" >
+              <td>Comision de venta</td>
+              <td>S/.2</td>
+
+            </tr>
+            <tr style="height: 40px;" >
+              <td>Total a Pagar</td>
+              <td id="total">S/.</td>
+
+            </tr>
+
+        </table>
+     </div>
+
+     <p class="subtitulo" id="subtitulo">METODO DE PAGO:</p>
+
+     <div class="cont2" id="cont2">
+        <table class="table_cont2">
+           <tr style="height:20px">
+              <td>Tarjeta de credito o debito</td>
+             
+           </tr>
+           <tr style="height:30px">
+              <td><input type="radio" name="option" class="radiobutton" id="option1"> <img src="image/visa.png" class="icono_tarjeta">
+                                                  <img  src="image/mastercard.png" class="icono_mastercard">
+                                                  <img src="image/dc1.png" class="icono_dc">
+                                                  <img src="image/american2.jpg" class="icono_american">
+              </td>
+              
+           </tr>
+          <tr style="height:30px">
+              <td><input type="radio" name="option" class="radiobutton2" id="option2"> <img src="image/yape.png" class="icono_yape">
+                   (proximamente disponible)</td>
+              
+          </tr>
+
+        </table>
+     </div>
+
+     <label class="checkbox" id="">
+      <input type="checkbox" name="condition" class="" id="checkbox">   Acepto los terminos y condiciones
+     </label>
+  
+     <button class="btn_reserva" id="reserve">RESERVAR ENTRADA</button>
+
+</div>
+
+<!--vista3-->
+<div class="view3" id="view3">
+  <div class="container_img">
+
+  </div>
+  
+  <div class="container">
+      
+      <h1>Recuerda validar tu tarjeta, antes de llenar tus datos</h1><br>
+      <label class="num_tarj" >N° de Tarjeta:</label>
+      <input  class="numTarjeta" id="num_tarjeta" type="text"  maxlength="16">
+  
+
+      <button id="btn_validation" class="btn_valida" type="submit">VALIDAR TARJETA</button>
+
+   
+      <h1 class="mensaje" id="lb_mensaje">......</h1>
+
+  </div>
+
+  <div class="container2">
+      <form action="page3.html">
+      <input  id="input_date" type="month"  value="MM/AA" class="date"  required>
+      <input id="cvv" type="text" class="cvv" placeholder="CVV" maxlength="3" required >
+      <input id="name" type="text" placeholder="NOMBRES" class="name"  required>
+      <input id="fullname" type="text" placeholder="APELLIDOS" class="fullname"   required>
+      <input id="gmail" type="text" placeholder="CORREO ELECTRONICO" class="gmail" required>
+      <button id="btn_pagar" class="btn_pagar" type="submit">PAGAR ENTRADA</button>
+      </form>
+
+      
+
+  </div>
+
+
+  <div id="overLay" class="overLay">
+      <div class="popUp">
+          <img  class="icone" src="image/pago.png">
+          <h1 class="h1">compra exitosa!!!</h1>
+
+         <a href="index.html">
+              <button  id="btn_aceptar" class= "btnAceptar">ACEPTAR</button>
+          </a>
+      
+
+      </div>
+
+  </div>
+</div>
+
+
+
 
 
     <footer></footer>
