@@ -35,7 +35,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### HTML
 
-- [] **Uso de HTML semántico**
+- [ ] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -204,7 +204,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
      necesaria para dicho evento y reduce costos operativos.
 
 3. Foto del primer prototipo en papel:
-   - ![ ](https://ibb.co/WchCtCB)
+   - ![ ](../main2/src/image/prototipo.jpg)
 
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
    - Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
