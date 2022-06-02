@@ -3,12 +3,15 @@
     padding: 0;
 
 }
-
+.body{
+    width: 1250px;
+}
 
 .header1{
     
     background-image: url("image/patronal2.png") ;
     height: 460px;
+  
     background-size:cover;
     background-repeat: no-repeat; 
     background-size: 100% 100%;

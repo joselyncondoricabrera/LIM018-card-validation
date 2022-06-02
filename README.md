@@ -31,7 +31,7 @@ El cual se validará dicha tarjeta crédito.
 
 ## 3. Objetivos de aprendizaje
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+En este proyecto se logró aplicar los siguientes objetivos de aprendizaje:
 
 ### HTML
 
@@ -204,7 +204,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
      necesaria para dicho evento y reduce costos operativos.
 
 3. Foto del primer prototipo en papel:
-   - ![ ](../main2/src/image/prototipo.jpg)
+   ![ ](../main2/src/image/prototipo.jpg)
 
 4. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
    - Que modularize el proyecto en una sola pagina html y genere varias vistas desde ahi.
