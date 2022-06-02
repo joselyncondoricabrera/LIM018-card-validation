@@ -129,29 +129,27 @@ let btnReserva = document.getElementById('reserve');
  
  
 btnReserva.addEventListener('click', ()=>{
-   // 
-    
-
+   
     let check = document.getElementById('checkbox').checked;
     let radioUno = document.getElementById('option1').checked;
     let radioDos = document.getElementById('option2').checked;
 
-     if(check && radioUno){
-        vista2.style.display ='none';
-        vista3.style.display ='block';
+     if(radioUno || radioDos){
+         if(check == true){
+            vista2.style.display ='none';
+            vista3.style.display ='block';
+
+         }
+         else{
+            alert('Acepte los terminos y condiciones');
+         }
+  
+     }
+     else{
+         alert('Seleccione un medio de pago');
+
      }
 
-     if(radioDos && check ){
-        alert('NO SE ENCUENTRA HABILITADO ESTA MODALIDAD');
-        vista2.style.display ='block';
-     }
-     if(check != true){
-         alert('Acepte los terminos y condiciones')
-
-     }
-     if(radioUno == false || radioDos == false){
-         alert('seleccione una opción de pago')
-     }
     
 });
 
