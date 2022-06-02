@@ -215,4 +215,5 @@ En este proyecto se logró aplicar los siguientes objetivos de aprendizaje:
    - [Prototipo proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?scaling=scale-down-width&page-id=0%3A1&node-id=4%3A12)
 
 6. Link del proyecto:
+
    - [Proyecto Card Validation](https://joselyncondoricabrera.github.io/LIM018-card-validation/src/)
