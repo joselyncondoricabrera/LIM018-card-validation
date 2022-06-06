@@ -215,4 +215,4 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
    - [Prototipo proyecto Card Validation](https://www.figma.com/proto/4NlnUz91yKVUXQkGYfl90T/card-validation?node-id=31%3A34&scaling=scale-down&page-id=0%3A1)
 
 6. Link del proyecto:
-   - [Proyecto Card Validation](https://joselyncondoricabrera.github.io/LIM018-card-validation/src/)
+   - [Proyecto Card Validation](https://joselyncondoricabrera.github.io/LIM018-card-validation/src)

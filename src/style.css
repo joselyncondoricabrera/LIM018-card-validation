@@ -1,12 +1,30 @@
 *{
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
 
 }
 .body{
     width: 1250px;
 }
+.footer{
+    background-color: #F2F3F4;
+    height: 90px;
+    text-align: center;
+    margin-top: -80px;
+    border-color: #D6DBDF;
+    border-style: solid;
+    border-top-width: 0.3px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 
+}
+.tituloPiePagina{
+    position:relative;
+    top: 40%;
+    color: #808B96;
+   
+}
 .header1{
     
     background-image: url("image/patronal2.png") ;

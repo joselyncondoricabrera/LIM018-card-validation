@@ -19,6 +19,9 @@ let vista3 = document.getElementById('view3');
 
 vista2.style.display='none';
 vista3.style.display= 'none';
+//pie de pagina
+let piePagina = document.getElementById('footer');
+
 
 
 //evento para que el boton muestre un popup
@@ -59,6 +62,7 @@ btn_open4.addEventListener('click',() => {
 btn_close.addEventListener('click', () => {
     container.classList.remove('show');
     vista2.style.display='block';
+    piePagina.style.display='none';
 
     
     //ocultar los botones type1, type2, type3, type4, el titulo, contenedor de info(codigo nuevo)
