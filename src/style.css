@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    /*padding: 0;*/
-
 }
 .body{
     width: 1250px;
@@ -33,8 +31,6 @@
     background-size:cover;
     background-repeat: no-repeat; 
     background-size: 100% 100%;
-    display: block;
-     
 }
 .title{
     color:#CD6155;
@@ -43,7 +39,6 @@
     width: 40%;
     font-size: 18px;
     font-family:monospace;
-    display: block;
 }
 .container_li1{
    
@@ -53,9 +48,6 @@
     font-size: 17px;
     font-family: cursive;
     color: #CD6155;
-    display: block;
-
-
 }
 .container_li2{
   
@@ -66,7 +58,6 @@
     font-size: 17px;
     font-family: cursive;
     color: #CD6155;
-    display: block;
 }
 
 .type1{
@@ -86,8 +77,6 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
-    display: block;
-
 }
 .type2{
 
@@ -106,7 +95,6 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
-    display: block;
 }
 .type3{
     
@@ -125,7 +113,6 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
-    display: block;
 }
 .type4{
   
@@ -144,7 +131,6 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
-    display: block;
 }
 .btn_adquirir{
     font-size: 15px;
@@ -159,8 +145,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     top:-100px;
-    left: 350px;
-    
+    left: 350px; 
 }
 
 .icone1{
@@ -169,7 +154,6 @@
     height: 30px;
     top:-65px;
     left:6px;
-
 }
 .icone2{
     position: relative;
@@ -177,7 +161,6 @@
     height: 30px;
     top:-30px;
     left: -30px;
-
 }
 .sub_title{
     position: relative;
@@ -228,20 +211,6 @@
     border: none;
     font-family: cursive;
 }
-/*.show{
-    pointer-events: auto;
-    opacity: 1;
-}*/
-
-/*mostrando y ocultando vistas --  nuevo codigo*/
-.mostrar{
-    display: block;
-}
-.ocultar{
-    display: none;
-}
-
-/**/
 
 .btn_increm{
     position:relative;
@@ -249,7 +218,6 @@
     left:120px;
     border: none;
     background-color: white;
-
 }
 
 .img_incre{
@@ -264,9 +232,6 @@
     left:30px;
     border: none;
     background-color: white;
-    /*background-image: url("image/menos.png") ;*/
-    
-
 }
 .img_decrem{
     width: 20px;
@@ -280,8 +245,6 @@
 
 /*pagina2 selectores*/
 
-
-
 .view2{
     position: relative;
     width: 600px;
@@ -291,7 +254,6 @@
 }
 
 .cont1{
-
     background-color:white;
     position: relative;
     top:-90px;
@@ -434,9 +396,6 @@
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-   
-
-    
     top:40px;
     box-shadow:  20px 15px 3px #808B96;
 }
@@ -507,7 +466,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: none;
   font-size: large;
   opacity: 0;
-
 }
 .cvv{
   position: relative;
@@ -518,7 +476,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border: none;
   text-align: center;
   opacity: 0;
-
 }
 .name{
   position: relative;
@@ -529,7 +486,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-radius: 8px;
   border: none;
   opacity: 0;
-
 }
 .fullname{
   position: relative;
@@ -540,7 +496,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 280px;
   border: none;
   opacity: 0;
-
 }
 .gmail{
   position: relative;
@@ -563,6 +518,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   opacity: 0;
   color: #1F1078
 }
+
  /* SELECTORES PARA MOSTRAR EL POPUP*/
  .overLay{
   background-color:rgb(0,0,0,0.3);
@@ -587,9 +543,14 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
  }
  .show{
+/*pointer- events --> permite reaccionar a los eventos del punterto(mouse)*/
   pointer-events: auto;
   opacity: 1;
-}
+ }
+.ocultar{
+    display: none;
+ }
+
 .icone{
   width: 50px;
   height: 50px;
@@ -597,7 +558,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   left: 5px;
   top: -20px;
 }
-.h1{
+.mensajePopup{
   position: relative;
   top:-10px;
 }
@@ -609,7 +570,4 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-radius: 10px;
   top:5px;
 }
-/*probando*/
-.showBoton{
-  opacity: 1;
-}
+
