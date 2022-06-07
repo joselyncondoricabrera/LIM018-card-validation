@@ -246,7 +246,7 @@ validation.addEventListener('click',()=>{
   let over = document.getElementById('overLay');
 
   //ejecutar el boton pagar
-  pagar.addEventListener('click', ()=>{
+  pagar.addEventListener('click', (e)=>{
     // verifica si los siguientes label tienen contenido  
     let date = document.getElementById('input_date').value;
     let cvv =  document.getElementById('cvv').value;
@@ -256,13 +256,14 @@ validation.addEventListener('click',()=>{
 
   
   // veirifica si todo los label estan llenos permite visualizar el popup
-   if(date != ''){
+    if(date != ''){
      if(cvv !=''){
        if(nombre !=''){
           if(apellido!=''){
                if(correo!=''){
                    // muestra el popup
-                over.classList.add('show');
+                   //e.preventDefault();
+                   over.classList.add('show');
   
             }
   
@@ -271,11 +272,11 @@ validation.addEventListener('click',()=>{
   
      }
     
-    }
+   }
     else{
         alert('Falta llener los campos');
-    }
-     
+      }
+    
   });
 
   //cerrar el popup
@@ -295,6 +296,7 @@ validation.addEventListener('click',()=>{
       tipo2.style.display='block';
       tipo3.style.display='block';
       tipo4.style.display='block';
+      console.log();
 
 
 
