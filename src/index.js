@@ -246,7 +246,7 @@ validation.addEventListener('click',()=>{
   let over = document.getElementById('overLay');
 
   //ejecutar el boton pagar
-  pagar.addEventListener('click', (e)=>{
+  pagar.addEventListener('click', ()=>{
     // verifica si los siguientes label tienen contenido  
     let date = document.getElementById('input_date').value;
     let cvv =  document.getElementById('cvv').value;
