@@ -274,7 +274,7 @@ validation.addEventListener('click',()=>{
     
    }
     else{
-        alert('Falta llener los campos');
+        alert('Falta llenar los campos');
       }
     
   });
@@ -287,18 +287,5 @@ validation.addEventListener('click',()=>{
    aceptar.addEventListener('click', ()=>{
          // oculta el popup 
        over.classList.remove('show');
-
-      header.style.display='block';
-      titulo.style.display='block';
-      contenedor1.style.display='block';
-      contenedor2.style.display='block';
-      tipo1.style.display='block';
-      tipo2.style.display='block';
-      tipo3.style.display='block';
-      tipo4.style.display='block';
-      console.log();
-
-
-
    });
 
